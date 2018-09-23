@@ -1,0 +1,24 @@
+.accordion {
+  width: 45%;
+  height: auto;
+  font-size: 1.2rem;
+}
+
+.accor-header {
+  border: 1px solid orange;
+}
+
+.accord-container {
+}
+
+.accord-body {
+  padding-top: -2rem;
+  visibility: hidden;
+  height: 0rem;
+  transition: height 850ms ease-in;
+}
+
+.accor-header:hover + .accord-body {
+  visibility: visible;
+  height: auto;
+}
